@@ -1,0 +1,15 @@
+{
+  "name": "Debug App: Progress And Error",
+  "type": "app",
+  "categories": [
+    "development"
+  ],
+  "description": "Prints progress and then raises error",
+  "docker_image": "docker.deepsystems.io/supervisely/five/base-py-sdk-internal:ecosystem_add_images_project",
+  "main_script": "src/main_dpe.py",
+  "task_location": "workspace_tasks",
+  "isolate": true,
+  "headless": true,
+  "icon": "https://img.icons8.com/color/96/000000/bug.png",
+  "icon_background": "#FFFE16"
+}
