@@ -8,8 +8,8 @@ def main():
     check_dir = "/mount_folder"
     if sly.fs.dir_exists(check_dir):
         files = sly.fs.list_dir_recursively(check_dir)
-        for f in files:
-            print(f)
+        for path in files:
+            sly.logger.info(f"File: {path}")
         
     
     progress = sly.Progress("Processing", 20)
