@@ -5,7 +5,7 @@
         "development"
     ],
     "description": "Prints progress and then raises error",
-    "docker_image": "supervisely/development:0.0.1",
+    "docker_image": "supervisely/non-existing-docker:0.0.1",
     "main_script": "src/main_dpe.py",
     "task_location": "workspace_tasks",
     "isolate": true,
