@@ -12,6 +12,5 @@
     "headless": true,
     "icon": "https://img.icons8.com/fluent/96/000000/insect.png",
     "icon_background": "#FDFF51",
-    "need_gpu": false,
-    "gpu": "required"
+    "gpu": "preffered"
 }
