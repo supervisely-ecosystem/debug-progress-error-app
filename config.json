@@ -1,11 +1,12 @@
 {
     "name": "Print Progress and Error",
     "type": "app",
+    "instance_version": "6.15.60",
     "categories": [
         "development"
     ],
     "description": "Prints progress and then raises error",
-    "docker_image": "supervisely/development:0.0.1",
+    "docker_image": "supervisely/development:6.73.564",
     "main_script": "src/main_dpe.py",
     "task_location": "workspace_tasks",
     "isolate": true,
